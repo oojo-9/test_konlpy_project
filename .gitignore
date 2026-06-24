@@ -1,0 +1,40 @@
+# python
+__pycache__/
+*.pyc
+
+# Virtual Environment (가상환경)
+.venv/
+.env
+
+# pycharm
+.idea/
+
+# dataset
+*.csv
+*.xlsx
+*.json
+
+# model
+*.pth
+*.pt
+*.h5
+*.keras
+
+# os
+.DS_Store
+Thumbs.db
+
+# .gitignore 작성 : git에 업로드하면 안되는 파일들 설정
+
+# git 메뉴 > commit > 커밋 메세지 작성 > 커밋 클릭
+# 터미널로 하려면 : git add .
+git commit -m 'Initial Commit'
+
+# 브렌치(branch)확인
+git branch
+
+# 출력확인 :
+*master | *main
+
+# master 인 경우 main 으로 변경
+git branch -M main
